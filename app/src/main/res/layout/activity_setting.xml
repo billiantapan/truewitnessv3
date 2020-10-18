@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SettingActivity">
+
+    <ImageButton
+        android:layout_width="46dp"
+        android:layout_height="37dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/back_arrow"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="37dp"
+        android:text="@string/account_settings"
+        android:textColor="@color/blue"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/logout"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>
+
+

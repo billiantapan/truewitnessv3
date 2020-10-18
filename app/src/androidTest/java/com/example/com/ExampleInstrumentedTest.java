@@ -1,4 +1,4 @@
-package com.example.truewitness;
+package com.example.com;
 
 import android.content.Context;
 
