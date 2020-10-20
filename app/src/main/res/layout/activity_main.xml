@@ -5,13 +5,14 @@
     android:layout_height="wrap_content"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="1dp"
+    android:padding="30dp"
+    android:background="@drawable/mainpage"
     tools:context=".MainActivity">
 
 
     <LinearLayout
-        android:layout_width="403dp"
-        android:layout_height="match_parent"
+        android:layout_width="399dp"
+        android:layout_height="717dp"
         android:gravity="right"
         android:orientation="vertical"
         tools:ignore="RtlHardcoded,UselessParent">
@@ -31,16 +32,17 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="141dp"
+            android:layout_height="177dp"
             android:layout_margin="30dp"
-            android:text="@string/Welcome_to_user"
+            android:text="Hello..User Name"
             android:textColor="#121213"
             android:textSize="35sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/button"
-            android:layout_width="299dp"
+            android:layout_width="327dp"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:background="@drawable/button_witness"
@@ -51,16 +53,14 @@
 
         <Button
             android:id="@+id/EmergencyID"
-            android:layout_width="311dp"
+            android:layout_width="334dp"
             android:layout_height="136dp"
             android:layout_margin="20dp"
             android:background="@drawable/round_button"
             android:text="@string/emergency"
             android:textColor="@color/white"
             android:textSize="30sp"
-            android:textStyle="bold"
-
-            />
+            android:textStyle="bold" />
 
     </LinearLayout>
 
